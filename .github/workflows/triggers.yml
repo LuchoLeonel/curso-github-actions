@@ -23,10 +23,10 @@ on:
   issue_comment: 
     types:  [created, deleted]
 on: issue_comment
-  jobs:
-    pr_commented:
-      name : PR comment
-      if : ${{ github.event.issue.pull_request }}
+jobs:
+  pr_commented:
+    name : PR comment
+    if : ${{ github.event.issue.pull_request }}
 on: 
   workflow_dispatch:
     inputs:
