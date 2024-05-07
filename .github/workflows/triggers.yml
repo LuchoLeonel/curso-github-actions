@@ -36,9 +36,9 @@ on:
 	default: medio
 	type: choice
 	option:
-	- bajo
-	- medio
-	- alto
+	  - bajo
+	  - medio
+	  - alto
 
       tags:
 	description: 'Opcional'
