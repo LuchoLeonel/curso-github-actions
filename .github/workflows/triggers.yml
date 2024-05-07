@@ -7,7 +7,6 @@ on: #Acaparará los triggers de este workflow
       - 'releases/**' #O en la rama releases y derivados
     paths: #Serán las rutas que se tendrán en cuenta para activar el workflow
       - '**.js' #Todos los archivos .js en el repositorio
-on: #Acaparará los triggers de este workflow
   pull_request: #El tipo de trigger: pr
     types: #Los estados que activarán el trigger
       - [opened, labeled] #Tomará los estados del PR
