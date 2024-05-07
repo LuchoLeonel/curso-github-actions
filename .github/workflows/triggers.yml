@@ -43,7 +43,7 @@ on:
       tags:
 	description: 'Opcional'
 	required: false
-	****type: boolean
+	type: boolean
 
       enviroment:
 	description: 'Objetivo'
