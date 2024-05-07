@@ -31,24 +31,24 @@ on:
   workflow_dispatch:
     inputs:
       alerta:
-	description: 'Nivel'
-	required: true
-	default: medio
-	type: choice
-	option:
-	  - bajo
-	  - medio
-	  - alto
+        description: 'Nivel'
+        required: true
+        default: medio
+        type: choice
+        option:
+       - bajo
+       - medio
+       - alto
 
       tags:
-	description: 'Opcional'
-	required: false
-	type: boolean
+        description: 'Opcional'
+        required: false
+       type: boolean
 
       enviroment:
-	description: 'Objetivo'
-	required: true
-	type: string
+        description: 'Objetivo'
+        required: true
+        type: string
 on:
   schedule:
     - cron : '30 5,17 8 * *'
