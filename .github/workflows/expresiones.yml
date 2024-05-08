@@ -1,5 +1,5 @@
 name: Expression
-run-name: "Aprendiendo Expresiones!"
+run-name: Aprendiendo Expresiones!
 on:
   workflow_dispatch:
     inputs:
