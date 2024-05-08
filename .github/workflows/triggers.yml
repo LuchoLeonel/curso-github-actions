@@ -4,6 +4,7 @@ on:
   push: # Activará el flujo de trabajo en eventos de push
     branches:
       - 'main'
+      - 'releases/**'
       - '*'
     paths:
       - '**.js'
