@@ -16,12 +16,12 @@ jobs:
 mayor:
   if: ${{ inputs.edad >= 18 }}
   runs-on: ubuntu-latest
-    steps:
-      - name : Correr script
-        run: echo ${{ inputs.nombre }} es mayor de edad
+  steps:
+    - name : Correr script
+      run: echo ${{ inputs.nombre }} es mayor de edad
 menor:
   if: ${{ inputs.edad < 18 }}
   runs-on: ubuntu-latest
-    steps:
-      - name : Correr script
-        run: echo ${{ inputs.nombre }} es menor de edad
+  steps:
+    - name : Correr script
+      run: echo ${{ inputs.nombre }} es menor de edad
